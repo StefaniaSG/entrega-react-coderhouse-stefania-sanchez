@@ -1,46 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Sections.css";
 
-export const Sections = () => {
+export const Sections = ({ isNavExpanded }) => {
   return (
     <>
-      <li className="nav-item">
-        <a className="nav-link active" href="#">
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">
-          Link
-        </a>
-      </li>
-
-      <li className="nav-item dropdown">
-        <a
-          className="nav-link dropdown-toggle"
-          data-bs-toggle="dropdown"
-          href="#"
-          role="button"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Dropdown
-        </a>
-        <div className="dropdown-menu">
-          <a className="dropdown-item" href="#">
-            Action
-          </a>
-          <a className="dropdown-item" href="#">
-            Another action
-          </a>
-          <a className="dropdown-item" href="#">
-            Something else here
-          </a>
-          <div className="dropdown-divider" />
-          <a className="dropdown-item" href="#">
-            Separated link
-          </a>
-        </div>
-      </li>
+      <div className={`nav-links ${isNavExpanded ? "active" : ""}`}>
+        <ul>
+          <li>
+            <Link to={"/"}>Home</Link>
+          </li>
+          <li>
+            <Link to={"/category/science fiction"}>Science Fiction</Link>
+          </li>
+          <li>
+            <Link to={"/category/fantasy"}>Fantasy</Link>
+          </li>
+          <li>
+            <Link to={"/category/novel"}>Novel</Link>
+          </li>
+          <li>
+            <Link to={"/category/mistery"}>Mistery</Link>
+          </li>
+        </ul>
+      </div>
     </>
   );
 };

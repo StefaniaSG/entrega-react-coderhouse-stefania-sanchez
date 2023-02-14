@@ -1,0 +1,233 @@
+[
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "pages": 384,
+    "price": 4400,
+    "genre": "Science Fiction",
+    "id": 1,
+    "idCategory": 1,
+    "stock": 10,
+    "img": "hunger-games.jpg"
+  },
+  {
+    "title": "Divergent",
+    "author": "Veronica Roth",
+    "pages": 496,
+    "price": 6040,
+    "genre": "Science Fiction",
+    "id": 2,
+    "idCategory": 1,
+    "stock": 15,
+    "img": "divergent.jpg"
+  },
+  {
+    "title": "Scythe",
+    "author": "Neal Shusterman",
+    "pages": 448,
+    "price": 3200,
+    "genre": "Science Fiction",
+    "id": 3,
+    "idCategory": 1,
+    "stock": 90,
+    "img": "scythe.jpg"
+  },
+  {
+    "title": "The Knife of Never Letting Go",
+    "author": "Patrick Ness",
+    "pages": 496,
+    "price": 3620,
+    "genre": "Science Fiction",
+    "id": 4,
+    "idCategory": 1,
+    "stock": 100,
+    "img": "knife-never-letting-go.jpg"
+  },
+  {
+    "title": "Legend",
+    "author": "Marie Lu",
+    "pages": "384",
+    "price": 3170,
+    "genre": "Science Fiction",
+    "id": 5,
+    "idCategory": 1,
+    "stock": 110,
+    "img": "legend.jpg"
+  },
+  {
+    "title": "A Court of Thorns and Roses",
+    "author": "Sarah J. Maas",
+    "pages": 432,
+    "price": 4875,
+    "genre": "Fantasy",
+    "id": 6,
+    "idCategory": 2,
+    "stock": 80,
+    "img": "court-of-thorns-and-roses.jpg"
+  },
+  {
+    "title": "Clockwork Angel",
+    "author": "Cassandra Clare",
+    "pages": 496,
+    "price": 7000,
+    "genre": "Fantasy",
+    "id": 7,
+    "idCategory": 2,
+    "stock": 200,
+    "img": "clockwork-angel.jpg"
+  },
+  {
+    "title": "Six of Crows",
+    "author": "Leigh Bardugo",
+    "pages": 512,
+    "price": 5880,
+    "genre": "Fantasy",
+    "id": 8,
+    "idCategory": 2,
+    "stock": 150,
+    "img": "six-of-crows.jpg"
+  },
+  {
+    "title": "The Raven Boys",
+    "author": "Maggie Stiefvater",
+    "pages": 464,
+    "price": 3450,
+    "genre": "Fantasy",
+    "id": 9,
+    "idCategory": 2,
+    "stock": 100,
+    "img": "raven-boys.jpg"
+  },
+  {
+    "title": "Percy Jackson",
+    "author": "Rick Riordan",
+    "pages": 400,
+    "price": 3410,
+    "genre": "Fantasy",
+    "id": 10,
+    "idCategory": 2,
+    "stock": 120,
+    "img": "percy-jackson.jpg"
+  },
+  {
+    "title": "The Gentelman's Guide to Vice and Virtue",
+    "author": "Mackenzie Lee",
+    "pages": 528,
+    "price": 5220,
+    "genre": "Novel",
+    "id": 11,
+    "idCategory": 3,
+    "stock": 200,
+    "img": "gentelmans-guide.jpg"
+  },
+  {
+    "title": "Fangirl",
+    "author": "Rainbow Rowell",
+    "pages": 480,
+    "price": 3630,
+    "genre": "Novel",
+    "id": 12,
+    "idCategory": 3,
+    "stock": 40,
+    "img": "fangirl.jpg"
+  },
+  {
+    "title": "The Selection",
+    "author": "Kiera Cass",
+    "pages": 336,
+    "price": 3300,
+    "genre": "Novel",
+    "id": 13,
+    "idCategory": 3,
+    "stock": 50,
+    "img": "the-selection.jpg"
+  },
+  {
+    "title": "Aristotle and Dante Discover the Secrets of the Universe",
+    "author": "Benjami Alire Sáenz",
+    "pages": 384,
+    "price": 3450,
+    "genre": "Novel",
+    "id": 14,
+    "idCategory": 3,
+    "stock": 100,
+    "img": "aristotle-and-dante.jpg"
+  },
+  {
+    "title": "To All the Boys I Loved Before",
+    "author": "Jenny Han",
+    "pages": 368,
+    "price": 3455,
+    "genre": "Novel",
+    "id": 15,
+    "idCategory": 3,
+    "stock": 100,
+    "img": "to-all-the-boys.jpg"
+  },
+  {
+    "title": "Wonder",
+    "author": "R. J. Palacio",
+    "pages": 320,
+    "price": 3190,
+    "genre": "Novel",
+    "id": 16,
+    "idCategory": 3,
+    "stock": 200,
+    "img": "wonder.jpg"
+  },
+  {
+    "title": "The Sun is Also a Star",
+    "author": "Nicola Yoon",
+    "pages": 384,
+    "price": 3375,
+    "genre": "Novel",
+    "id": 17,
+    "idCategory": 3,
+    "stock": 100,
+    "img": "the-sun-is-also-a-star.jpg"
+  },
+  {
+    "title": "One of Us Is Lying",
+    "author": "Karen M. McManus",
+    "pages": 368,
+    "price": 3760,
+    "genre": "Mistery",
+    "id": 18,
+    "idCategory": 4,
+    "stock": 300,
+    "img": "one-of-us-is-lying.jpg"
+  },
+  {
+    "title": "Nobody Knows But You",
+    "author": "Anica Mrose Rissi",
+    "pages": 240,
+    "price": 2950,
+    "genre": "Mistery",
+    "id": 19,
+    "idCategory": 4,
+    "stock": 50,
+    "img": "nobody-knows-but-you.jpg"
+  },
+  {
+    "title": "The Murder Game",
+    "author": "Carrie Doyle",
+    "pages": 384,
+    "price": 3435,
+    "genre": "Mistery",
+    "id": 20,
+    "idCategory": 4,
+    "stock": 300,
+    "img": "the-murder-game.jpg"
+  },
+  {
+    "title": "All the Crooked Saints",
+    "author": "Maggie Stiefvater",
+    "pages": 320,
+    "price": 3105,
+    "genre": "Fantasy",
+    "id": 21,
+    "idCategory": 2,
+    "stock": 210,
+    "img": "crooked-saints.jpg"
+  }
+]
