@@ -5,7 +5,7 @@ export const ItemDetail = ({ item }) => {
   return (
     <>
       <div className="detail-container">
-        <img className="detail-img" src={`../img/${item.img}`} alt="" />
+        <img className="detail-img" src={item.img} alt="" />
 
         <div className="detail-info">
           <h1 className="detail-title">{item.title}</h1>

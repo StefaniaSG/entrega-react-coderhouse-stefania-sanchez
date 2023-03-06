@@ -8,7 +8,7 @@
     "id": 1,
     "idCategory": 1,
     "stock": 10,
-    "img": "hunger-games.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/hunger-games.jpg?alt=media&token=a5e9a761-9255-4058-8acc-67b34564bfa6"
   },
   {
     "title": "Divergent",
@@ -19,7 +19,7 @@
     "id": 2,
     "idCategory": 1,
     "stock": 15,
-    "img": "divergent.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/divergent.jpg?alt=media&token=caf50268-9210-4ab7-bf0c-c181cdc75495"
   },
   {
     "title": "Scythe",
@@ -30,7 +30,7 @@
     "id": 3,
     "idCategory": 1,
     "stock": 90,
-    "img": "scythe.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/scythe.jpg?alt=media&token=30e2ee3b-8f1e-4c4a-b188-4f4bee6219f4"
   },
   {
     "title": "The Knife of Never Letting Go",
@@ -41,7 +41,7 @@
     "id": 4,
     "idCategory": 1,
     "stock": 100,
-    "img": "knife-never-letting-go.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/knife-never-letting-go.jpg?alt=media&token=cdd3471a-b9ef-4fd4-acc5-24d5d44f3d48"
   },
   {
     "title": "Legend",
@@ -52,7 +52,7 @@
     "id": 5,
     "idCategory": 1,
     "stock": 110,
-    "img": "legend.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/legend.jpg?alt=media&token=8a6dbedc-ec4c-4b32-8c48-43e4f50d0755"
   },
   {
     "title": "A Court of Thorns and Roses",
@@ -63,7 +63,7 @@
     "id": 6,
     "idCategory": 2,
     "stock": 80,
-    "img": "court-of-thorns-and-roses.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/court-of-thorns-and-roses.jpg?alt=media&token=a10d4b89-13e2-4c30-87b5-21f5bf396774"
   },
   {
     "title": "Clockwork Angel",
@@ -74,7 +74,7 @@
     "id": 7,
     "idCategory": 2,
     "stock": 200,
-    "img": "clockwork-angel.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/clockwork-angel.jpg?alt=media&token=55db9e4c-1f52-452d-a286-f4ab791cadf6"
   },
   {
     "title": "Six of Crows",
@@ -85,7 +85,7 @@
     "id": 8,
     "idCategory": 2,
     "stock": 150,
-    "img": "six-of-crows.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/six-of-crows.jpg?alt=media&token=e48b60df-1af8-4753-9333-9bd5e41611bf"
   },
   {
     "title": "The Raven Boys",
@@ -96,7 +96,7 @@
     "id": 9,
     "idCategory": 2,
     "stock": 100,
-    "img": "raven-boys.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/raven-boys.jpg?alt=media&token=d7444aed-cfeb-4e01-9a97-db1179025780"
   },
   {
     "title": "Percy Jackson",
@@ -107,7 +107,7 @@
     "id": 10,
     "idCategory": 2,
     "stock": 120,
-    "img": "percy-jackson.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/percy-jackson.jpg?alt=media&token=35634a3e-c4af-41a4-beb2-aab8227a9c44"
   },
   {
     "title": "The Gentelman's Guide to Vice and Virtue",
@@ -118,7 +118,7 @@
     "id": 11,
     "idCategory": 3,
     "stock": 200,
-    "img": "gentelmans-guide.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/gentelmans-guide.jpg?alt=media&token=3747e206-bb66-4f87-8706-e8fc973e88f9"
   },
   {
     "title": "Fangirl",
@@ -129,7 +129,7 @@
     "id": 12,
     "idCategory": 3,
     "stock": 40,
-    "img": "fangirl.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/fangirl.jpg?alt=media&token=287b5949-6bfc-4ac4-905e-2e3246154455"
   },
   {
     "title": "The Selection",
@@ -140,7 +140,7 @@
     "id": 13,
     "idCategory": 3,
     "stock": 50,
-    "img": "the-selection.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/the-selection.jpg?alt=media&token=c4f74ef0-69d9-4cbe-a67e-976cef1cc11c"
   },
   {
     "title": "Aristotle and Dante Discover the Secrets of the Universe",
@@ -151,7 +151,7 @@
     "id": 14,
     "idCategory": 3,
     "stock": 100,
-    "img": "aristotle-and-dante.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/aristotle-and-dante.jpg?alt=media&token=58a6cedd-b6c2-4450-afcf-b4fc59424a19"
   },
   {
     "title": "To All the Boys I Loved Before",
@@ -162,7 +162,7 @@
     "id": 15,
     "idCategory": 3,
     "stock": 100,
-    "img": "to-all-the-boys.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/to-all-the-boys.jpg?alt=media&token=d2b13c83-7c3a-45b4-92ab-b6b91f8f6702"
   },
   {
     "title": "Wonder",
@@ -173,7 +173,7 @@
     "id": 16,
     "idCategory": 3,
     "stock": 200,
-    "img": "wonder.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/wonder.jpg?alt=media&token=d3e669e5-de7d-40a1-aecd-26eb084cc33a"
   },
   {
     "title": "The Sun is Also a Star",
@@ -184,7 +184,7 @@
     "id": 17,
     "idCategory": 3,
     "stock": 100,
-    "img": "the-sun-is-also-a-star.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/the-sun-is-also-a-star.jpg?alt=media&token=ca1ea9bb-314b-41f0-8cca-345eff71f256"
   },
   {
     "title": "One of Us Is Lying",
@@ -195,7 +195,7 @@
     "id": 18,
     "idCategory": 4,
     "stock": 300,
-    "img": "one-of-us-is-lying.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/one-of-us-is-lying.jpg?alt=media&token=d8b8a104-128e-4ba0-94d4-b708da01edd8"
   },
   {
     "title": "Nobody Knows But You",
@@ -206,7 +206,7 @@
     "id": 19,
     "idCategory": 4,
     "stock": 50,
-    "img": "nobody-knows-but-you.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/nobody-knows-but-you.jpg?alt=media&token=9593bcdf-e071-4e8a-9f87-fcb2d12ff60e"
   },
   {
     "title": "The Murder Game",
@@ -217,7 +217,7 @@
     "id": 20,
     "idCategory": 4,
     "stock": 300,
-    "img": "the-murder-game.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/the-murder-game.jpg?alt=media&token=8bec40b6-c114-4f48-8236-d73a40eb94cb"
   },
   {
     "title": "All the Crooked Saints",
@@ -228,6 +228,6 @@
     "id": 21,
     "idCategory": 2,
     "stock": 210,
-    "img": "crooked-saints.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-store-coderhouse.appspot.com/o/crooked-saints.jpg?alt=media&token=c9130d39-87e7-412b-b0cc-e8b2a46c97e6"
   }
 ]

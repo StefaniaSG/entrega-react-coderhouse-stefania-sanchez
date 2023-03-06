@@ -50,12 +50,17 @@
   }
 
   .detail-img {
-    width: 95%;
+    width: 200px;
     height: auto;
   }
 
   .detail-info {
     margin-top: 2rem;
     align-items: center;
+  }
+
+  .detail-title,
+  .detail-price {
+    font-size: 25px;
   }
 }
