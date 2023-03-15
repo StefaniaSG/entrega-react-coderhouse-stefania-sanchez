@@ -1,0 +1,16 @@
+.cart-quantity {
+  background-color: #d2eeef;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: -13px;
+  right: -9px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: #03989e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

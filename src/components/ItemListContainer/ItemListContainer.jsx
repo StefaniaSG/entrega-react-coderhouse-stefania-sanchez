@@ -10,7 +10,7 @@ export const ItemListContainer = () => {
 
   useEffect(() => {
     if (idCategory) {
-      getDataFromDB("../json/products.json").then((booksList) => {
+      getDataFromDB().then((booksList) => {
         const booksListFilter = booksList.filter(
           (f) => f.genre.toLowerCase() === idCategory
         );
@@ -18,7 +18,7 @@ export const ItemListContainer = () => {
         setProducts(itemList);
       });
     } else {
-      getDataFromDB("./json/products.json").then((booksList) => {
+      getDataFromDB().then((booksList) => {
         const itemList = ItemList({ booksList });
         setProducts(itemList);
       });

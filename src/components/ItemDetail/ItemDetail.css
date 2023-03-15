@@ -64,3 +64,24 @@
     font-size: 25px;
   }
 }
+
+.goToCart-button {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  background-color: #a4d7d9;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 5px;
+  width: 180px;
+}
+
+.goToCart-button:hover {
+  background-color: #36adb1;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}

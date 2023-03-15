@@ -1,7 +1,6 @@
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navbar } from "./Navbar/Navbar";
 import { ItemListContainer } from "./ItemListContainer/ItemListContainer";
@@ -9,8 +8,10 @@ import { ItemDetailContainer } from "./ItemDetailContainer/ItemDetailContainer";
 import { Checkout } from "./Checkout/Checkout";
 import { Cart } from "./Cart/Cart";
 import { CartProvider } from "../context/CartContext";
+import { loadDB } from "../utils/firebase";
 
 const App = () => {
+  // loadDB();
   return (
     <>
       <BrowserRouter>

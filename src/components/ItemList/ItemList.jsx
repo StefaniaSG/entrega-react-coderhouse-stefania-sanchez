@@ -1,11 +1,12 @@
 import { Item } from "../Item/Item";
+import { ItemCart } from "../ItemCart/ItemCart";
 
-export const ItemList = ({ booksList }) => {
+export const ItemList = ({ booksList, template }) => {
   return (
     <>
-      {booksList.map((book) => (
-        <Item item={book} key={book.id} />
-      ))}
+      {template === "ItemCart"
+        ? booksList.map((book) => <ItemCart item={book} key={book.id} />)
+        : booksList.map((book) => <Item item={book} key={book.id} />)}
     </>
   );
 };
