@@ -1,11 +1,19 @@
+import { Link } from "react-router-dom";
+import { useCartContext } from "../../context/CartContext";
 import { ItemCount } from "../ItemCount/ItemCount";
 import "./ItemDetail.css";
 
 export const ItemDetail = ({ item }) => {
+  const { addToCart } = useCartContext();
+
+  const onAdd = (quantity) => {
+    addToCart(item, quantity);
+  };
+
   return (
     <>
       <div className="detail-container">
-        <img className="detail-img" src={`../img/${item.img}`} alt="" />
+        <img className="detail-img" src={item.img} alt="" />
 
         <div className="detail-info">
           <h1 className="detail-title">{item.title}</h1>
@@ -24,7 +32,11 @@ export const ItemDetail = ({ item }) => {
             <strong>Stock: </strong> {item.stock}
           </p>
           <p className="detail-price">${item.price}</p>
-          <ItemCount initialValue={1} stock={item.stock} />
+
+          <ItemCount initialValue={1} stock={item.stock} onAdd={onAdd} />
+          <Link to={"/cart"} className="goToCart-button">
+            Go to cart
+          </Link>
         </div>
       </div>
     </>

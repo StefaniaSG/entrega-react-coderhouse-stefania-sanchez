@@ -1,0 +1,40 @@
+.cart-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.cart-items img {
+  width: 120px;
+  height: auto;
+}
+
+.cart-items h3 {
+  font-weight: 700;
+  width: 150px;
+}
+
+.itemCart-price,
+.itemCart-subtotal {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14.5px;
+}
+
+.itemCart-icon {
+  color: rgba(220, 23, 23, 0.912);
+  font-size: 16px;
+}
+
+.itemCart-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+}
