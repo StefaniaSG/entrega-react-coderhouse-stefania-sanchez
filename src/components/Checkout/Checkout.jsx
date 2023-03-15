@@ -18,12 +18,14 @@ export const Checkout = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+
+  const newErrors = Object.values(errors);
+
   const onSubmit = (data) => {
     const { email, confirmEmail } = data;
     if (email !== confirmEmail) {
       return;
     }
-    console.log(data);
 
     const aux = [...cart];
     const client = data;
@@ -45,7 +47,7 @@ export const Checkout = () => {
           )} was succesful`,
           {
             position: "top-right",
-            autoClose: 2000,
+            autoClose: 4000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: false,
@@ -69,7 +71,7 @@ export const Checkout = () => {
           <input
             type="text"
             {...register("name", {
-              required: true,
+              required: "Name is required.",
               pattern: /^[a-zA-Z].*[\s\.]*$/g,
             })}
           />
@@ -79,7 +81,7 @@ export const Checkout = () => {
           <input
             type="email"
             {...register("email", {
-              required: true,
+              required: "Email is required.",
               pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
             })}
           />
@@ -89,7 +91,7 @@ export const Checkout = () => {
           <input
             type="email"
             {...register("confirmEmail", {
-              required: true,
+              required: "Emails are not matching.",
               pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
             })}
           />
@@ -99,7 +101,7 @@ export const Checkout = () => {
           <input
             type="number"
             {...register("dni", {
-              required: true,
+              required: "DNI is required.",
               minLength: 6,
               maxLength: 10,
             })}
@@ -110,7 +112,7 @@ export const Checkout = () => {
           <input
             type="number"
             {...register("cellphone", {
-              required: true,
+              required: "Cellphone is required.",
               minLength: 5,
               maxLength: 20,
             })}
@@ -121,7 +123,7 @@ export const Checkout = () => {
           <input
             type="text"
             {...register("address", {
-              required: true,
+              required: "Address is required.",
               pattern: /^[a-zA-Z0-9\s,'-]*$/,
             })}
           />
@@ -131,16 +133,9 @@ export const Checkout = () => {
         </button>
         {errors && (
           <ul className="form-errors">
-            {errors.name?.type === "required" && <li>Fullname is required.</li>}
-            {errors.email?.type === "required" && <li>Email is required.</li>}
-            {errors.confirmEmail}
-            {errors.dni?.type === "required" && <li>DNI is required.</li>}
-            {errors.cellphone?.type === "required" && (
-              <li>Cellphone is required.</li>
-            )}
-            {errors.address?.type === "required" && (
-              <li>Address is required.</li>
-            )}
+            {newErrors.map((error) => (
+              <li key={error.ref.name}>{error.message}</li>
+            ))}
           </ul>
         )}
       </form>

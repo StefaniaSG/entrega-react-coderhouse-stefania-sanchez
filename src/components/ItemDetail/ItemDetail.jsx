@@ -16,7 +16,7 @@ export const ItemDetail = ({ item }) => {
         <img className="detail-img" src={item.img} alt="" />
 
         <div className="detail-info">
-          <h1 className="detail-title">{item.title}</h1>
+          <h1>{item.title}</h1>
           <p className="detail-text">
             <strong>Author: </strong>
             {item.author}

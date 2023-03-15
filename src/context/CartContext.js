@@ -43,7 +43,7 @@ export const CartProvider = (props) => {
       return product.quantity * product.price;
     });
 
-    return cartPrices.reduce((acc, product) => (acc += product));
+    return cartPrices.reduce((acc, product) => (acc += product), 0);
   };
 
   return (
